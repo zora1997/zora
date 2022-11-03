@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T09:55:07.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="7yyeMqfOzNrBId9Zf8xy" type="github"><diagram id="o9FnqxCM9WG1nVttvJCs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-03T09:56:34.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ClMW2PYIhP5oKMlSC2_o" version="20.5.1" type="github">
+  <diagram id="o9FnqxCM9WG1nVttvJCs" name="Page-1">
+    <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="POvZDfv9BHr6A5BS6j2C-1" target="POvZDfv9BHr6A5BS6j2C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;req.passback.timestamp&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="POvZDfv9BHr6A5BS6j2C-2" target="POvZDfv9BHr6A5BS6j2C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;rsp.passback.timestamp&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-4" value="第一次请求时带0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="620" y="165" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="POvZDfv9BHr6A5BS6j2C-7" value="req的passback从rsp里原样取，透传就行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
